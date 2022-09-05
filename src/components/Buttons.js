@@ -5,9 +5,9 @@ const Buttons = ({ datitos, botones }) => {
     <div className="filter--container">
       {botones.map((category, index) => {
         return (
-          <buttons key={index} onClick={() => datitos(category)}>
+          <button key={index} onClick={() => datitos(category)}>
             {category}
-          </buttons>
+          </button>
         );
       })}
     </div>

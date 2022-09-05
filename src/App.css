@@ -41,6 +41,7 @@
   background-color: white;
   font-size: 25px;
   color: #c59d5f;
+  cursor: pointer;
 }
 
 .img--container {
@@ -82,7 +83,7 @@
 
   flex-wrap: wrap;
   flex-direction: row;
-  row-gap: 10px;
+  column-gap: 40px;
 }
 
 .section--menu {
